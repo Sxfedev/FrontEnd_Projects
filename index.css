@@ -66,28 +66,22 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
-    
   }
 }
-
 
 .barda {
   color: #ffff;
   cursor: pointer;
   text-align: center;
   font-size: 3rem;
- 
-  padding-top: 2rem;
-  
 
+  padding-top: 2rem;
 }
 .nave a {
-    margin-top: 2rem;
-    display: block;
+  margin-top: 2rem;
+  display: block;
   text-align: center;
 }
-
-
 
 @media (min-width: 768px) {
   .nave {
@@ -97,3 +91,86 @@ img {
     gap: 2rem;
   }
 }
+.maincontent {
+  display: grid;
+}
+.maincontent h4 {
+  text-align: center;
+  margin-top: 4rem;
+}
+.maincontent h3 {
+  margin-left: 4rem;
+  font-size: 4rem;
+}
+.maincontent p {
+  text-align: left;
+  margin-left: 8rem;
+}
+.imgblog {
+  width: 95%;
+}
+.side h3 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .maincontent {
+    display: grid;
+    grid-template-columns: 2.5fr 0.5fr;
+    column-gap: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .maincontent img {
+    margin: 0 auto;
+  }
+}
+.imgblog {
+  border-bottom: #e1e1e1 1px solid;
+  margin-top: 4rem;
+}
+.imagelog img {
+  width: 90%;
+  display: block;
+  margin-left: 7rem;
+  
+}
+.imagelog h4 {
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.read {
+  margin-top: 4rem;
+  display: block;
+
+  margin-left: 8rem;
+  margin-bottom: 4rem;
+  background-color: black;
+}
+.read a {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+ cursor: pointer;
+ display: block;
+ height: 4rem;
+ line-height: 4rem;
+ padding: 1rem 3rem;
+}
+
+
+.sideba {
+  border: 1px solid black;
+}
+.sideba a {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+  color: black;
+
+}
+.sideba h3 {
+  text-align: center;
+
+}
+
